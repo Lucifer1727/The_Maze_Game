@@ -27,8 +27,7 @@ function MainPart() {
       <div className="absolute bg-amber-900	 h-[1.5vh] w-[62.5vh] left-[11vh] top-[62vh]"></div>
       <div className="absolute bg-amber-900	 h-[27vh] w-[1.5vh] left-[38.5vh] bottom-0"></div>
       <div className="absolute bg-amber-900	 h-[1.5vh] w-[27vh] top-[74.5vh]"></div>
-      <div className="absolute bg-amber-900	 h-[1.5vh] w-[34vh] right-0 top-[74.5vh]"></div>
-    </div>
+      <div className="absolute bg-amber-900	 h-[1.5vh] w-[34vh] right-0 top-[74.5vh]"></div></div>
     </div>
   )
 }

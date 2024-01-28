@@ -1,4 +1,10 @@
 import butterfly from "./ButterFly.png";
+import flower from "./Flower.png";
+
+function Mover()
+{
+  let butterfly = getelementbyid(butterfly);
+};
 
 function MainPart() {
   return (
@@ -9,7 +15,8 @@ function MainPart() {
     <div className="absolute bg-amber-900	 h-[90vh] w-[1.5vh] right-0"></div>
     <div className="absolute bg-amber-900	 h-[90vh] w-[1.5vh] left-0"></div>
       <div className="bg-[#4B2B30] h-[1.5vh] w-[10vh] top-0"></div>
-      <div className="bg-[#4B2B30] h-[1.5vh] w-[10vh] absolute bottom-0 right-0 "></div>
+      
+      <img src={butterfly} alt="" onClick={Mover} id="butterfly" className="h-[10vh] w-[10vh] ml-[0.5vh]" srcset="" />
       <div className="absolute bg-amber-900	 h-[15vh] w-[1.5vh] left-[10vh] top-[0vh]"></div>
       <div className="absolute bg-amber-900	 h-[11vh] w-[1.5vh] left-[10vh] top-[25vh]"></div>
       <div className="absolute bg-amber-900	 h-[1.5vh] w-[11.5vh] left-[0vh] top-[36vh]"></div>
@@ -27,7 +34,8 @@ function MainPart() {
       <div className="absolute bg-amber-900	 h-[1.5vh] w-[62.5vh] left-[11vh] top-[62vh]"></div>
       <div className="absolute bg-amber-900	 h-[27vh] w-[1.5vh] left-[38.5vh] bottom-0"></div>
       <div className="absolute bg-amber-900	 h-[1.5vh] w-[27vh] top-[74.5vh]"></div>
-      <div className="absolute bg-amber-900	 h-[1.5vh] w-[34vh] right-0 top-[74.5vh]"></div></div>
+      <div className="absolute bg-amber-900	 h-[1.5vh] w-[34vh] right-0 top-[74.5vh]"></div>
+      <img src={flower} alt="" className="h-[10vh] w-[10vh] bottom-0 right-2 absolute" srcset="" /></div>
     </div>
   )
 }
